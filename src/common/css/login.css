@@ -1,0 +1,46 @@
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+#root{
+    height:100%;
+    width:100%;
+}
+.loginPage{
+    width:100%;
+    height:100%;
+    background-color:#364150;
+    overflow: hidden;
+
+}
+.loginLogo{
+    text-align:center;
+    margin-top:50px;
+}
+.loginPageContainer{
+    width: 30%;
+    background-color:#ECEEF1;
+    margin:40px auto;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.loginPageContainer .font-style{
+    color: #1890FF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400 !important;
+    margin-bottom:10px;
+}
+.login-form {
+    width: 70%;
+    margin:0 auto;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}

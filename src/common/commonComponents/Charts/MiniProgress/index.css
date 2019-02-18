@@ -1,0 +1,33 @@
+.miniProgress {
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+}
+.miniProgress .progressWrap {
+    background-color: #F5F5F5;
+    position: relative;
+}
+.miniProgress .progress {
+    transition: all 0.4s cubic-bezier(0.08,0.82,0.17,1) 0s;
+    border-radius: 1px 0 0 1px;
+    background-color: blue;
+    width: 0;
+    height: 100%;
+}
+.miniProgress .target {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.miniProgress .target span {
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 2px;
+}
+.miniProgress .target span:last-child {
+    top: auto;
+    bottom: 0;
+}

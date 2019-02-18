@@ -1,0 +1,4 @@
+.TotalOutStoreTable table,tr,td,th{
+    border-color:#E8E8E8;
+}
+.TotalOutStoreTable tr:hover{background-color: #E6F7FF;}

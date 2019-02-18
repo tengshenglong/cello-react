@@ -1,0 +1,12 @@
+/*JAge页面其他字体红色*/
+.JAge .JAgeOther:nth-last-child(2){
+    color:red;
+}
+/*JDetail页面未超期字体红色*/
+.PassDate{
+    color:red;
+}
+/*新增定时任务JOB详情内有异常情况下显示红色*/
+.Tasks .TasksOther{
+    color:red;
+}

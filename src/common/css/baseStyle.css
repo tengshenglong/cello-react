@@ -1,0 +1,34 @@
+
+.inputStyle {
+    float: left;
+    width:100px;
+}
+.colStyle {
+    margin-left : 20px;
+}
+.rowStyle{
+    margin-top: 10px;
+}
+.divStyle{
+    margin-left : 20px;
+    float: left;
+    width:120px;
+    font-size : 20px;
+}
+.ant-table-tbody tr td{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.allBorder{
+    padding:12px;
+}
+.commonMarginTop{
+    margin-top:10px;
+}
+.starColor{
+    color:red;
+}
+.commonWidth{
+    width:150px;
+}

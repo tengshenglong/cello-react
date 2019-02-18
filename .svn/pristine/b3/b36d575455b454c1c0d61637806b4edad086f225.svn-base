@@ -1,0 +1,89 @@
+.pie {
+    position: relative;
+}
+.pie .chart {
+    position: relative;
+}
+.pie.hasLegend .chart {
+    width: calc(100% - 240px);
+}
+.pie .legend {
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 20px;
+    list-style: none;
+    padding: 0;
+}
+.pie .legend li {
+    cursor: pointer;
+    margin-bottom: 16px;
+    height: 22px;
+    line-height: 22px;
+}
+.pie .legend li:last-child {
+    margin-bottom: 0;
+}
+.pie .dot {
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: -1px;
+    height: 8px;
+    width: 8px;
+}
+.pie .line {
+    background-color: grey;
+    display: inline-block;
+    margin-right: 8px;
+    width: 1px;
+    height: 16px;
+}
+.pie .legendTitle {
+    color: rgba(0,0,0,0.65);
+}
+.pie .percent {
+    color: rgba(0,0,0,0.45);
+}
+.pie .value {
+    position: absolute;
+    right: 0;
+}
+.pie .title {
+    margin-bottom: 8px;
+}
+.pie .total {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    max-height: 62px;
+    transform: translate(-50%,-50%);
+}
+.pie .total > h4 {
+    color: rgba(0,0,0,0.45);
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+.pie .total > p {
+    color: rgba(0,0,0,0.85);
+    display: block;
+    font-size: 1.2em;
+    height: 32px;
+    line-height: 32px;
+    white-space: nowrap;
+}
+.legendBlock.hasLegend .chart {
+    width: 100%;
+    margin: 0 0 32px 0;
+}
+.legendBlock .legend {
+    position: relative;
+    transform: none;
+}
